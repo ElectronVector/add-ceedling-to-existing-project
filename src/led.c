@@ -7,10 +7,10 @@
 
 void led_turn_on(void)
 {
-  GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_2, GPIO_PIN_2);
+  GPIOPinWrite(GPIO_PORTG_BASE, GPIO_PIN_2, GPIO_PIN_2);
 }
 
 void led_turn_off(void)
 {
-  GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_2, 0);
+  GPIOPinWrite(GPIO_PORTG_BASE, GPIO_PIN_2, 0);
 }
